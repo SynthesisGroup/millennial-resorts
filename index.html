@@ -126,14 +126,15 @@
 										         <div class="row">
 										            <div class="col-md-8">
 										                <div class="form__group">
-										                    <select type="select" id="property" class="form__field" name="property" required>
-										                    	<option>Aqua</option>
-										                    	<option>Aquaria</option>
+										                    <select type="select" id="property" class="form__field selectProperty" name="property" required>
+										                    	<option selected disabled>-- select --</option>
+										                    	<option value="https://synthesisgroup.github.io/Aqua/book.html">Aqua</option>
+										                    	<option value="https://synthesisgroup.github.io/Aquaria/book.html">Aquaria</option>
 										                    	<option>Beach Club</option>
 										                    	<option>Boardwalk</option>
 										                    	<option>Canopy</option>
-										                    	<option>Crusoe Cabins</option>
-										                    	<option>Cocoons</option>
+										                    	<option value="https://synthesisgroup.github.io/crusoe-cabins/book.html">Crusoe Cabins</option>
+										                    	<option value="https://synthesisgroup.github.io/cocoons/book.html">Cocoons</option>
 										                    	<option>The Colony</option>
 										                    	<option>The Isle</option>
 										                   	</select>
@@ -142,7 +143,7 @@
 										            </div>
 										            <div class="col-md-4">
 										            	<div class="form__group">
-										            		<button type="submit" class="theme-btn btn-style-gold btn-block"><span class="txt">Book Now</span></button>
+										            		<a href="" id="bookNow" target="__blank" rel="noopener" class="theme-btn btn-style-gold btn-block"><span class="txt">Book Now</span></a>
 										            	</div>
 										            </div>
 										        </div>
@@ -839,6 +840,17 @@
 <script src="assets/vendors/jquery.min.js"></script>
 <script src="assets/owlcarousel/owl.carousel.js"></script>
 <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).on('change', '#property', function() {
+			let property = $(this).val();
+
+			$('a#bookNow').attr('href',property);
+			$('a#bookNow').attr('target', '__blank');
+		})
+	})
+</script>
 
 </body>
 

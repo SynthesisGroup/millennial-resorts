@@ -8512,9 +8512,10 @@ img{
 	}
 
 	select[id='property'] {
-	    background-image: url(../images/icons/form-icon-1.png);
+	    background-image: url(../images/favicon.png);
 	    background-position: 0px 18px;
 	    background-repeat: no-repeat;
+	    background-size: 20px;
 	}
 
 	input[id='arrival'] {
@@ -8749,9 +8750,10 @@ img{
 	}
 
 	select[id='property'] {
-	    background-image: url(../images/icons/form-icon-1.png);
-	    background-position: 0px 18px;
+	    background-image: url(../images/favicon.png);
+	    background-position: 0px 15px;
 	    background-repeat: no-repeat;
+	    background-size: 20px;
 	}
 
 	input[id='arrival'] {
