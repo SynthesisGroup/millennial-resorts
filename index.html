@@ -66,7 +66,7 @@
             					<li><a href="events.html">Events</a></li>
             					<li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="contact_us.html">Contact</a></li>
-                                <li><button type="button" class="theme-btn btn-style-gold book-room-btn rs-mobile" onclick="window.location.href='book_search.html'"><span class="txt">Book A Room</span></button></li>
+<!--                                 <li><button type="button" class="theme-btn btn-style-gold book-room-btn rs-mobile" onclick="window.location.href='book_search.html'"><span class="txt">Book A Room</span></button></li> -->
                             </ul>
                         </div>
 					</nav>
@@ -117,46 +117,32 @@
 							<h3 class="header-title-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Welcome to <br> Millennial Resorts</h3>
 							<p class="header-description-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Destinations Worthy Of Every Bucket List</p>
 
-							<div class="row clearfix">
-								<div class="col-md-12">
+							<div class="row clearfix justify-content-center">
+								<div class="col-md-6">
 									<!-- Card Content Column-->
-									<div class="card wow fadeIn"  data-wow-delay="500ms" data-wow-duration="1500ms" style="margin-top: 80px">
+									<div class="card" style="margin-top: 80px">
 										<div class="card-body">
 											<form action="">
 										         <div class="row">
-										            <div class="col-md-2">
+										            <div class="col-md-8">
 										                <div class="form__group">
-										                    <input type="text" id="property" class="form__field" name="property" required>
-										                    <label for="property" class="form__label">Property &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
+										                    <select type="select" id="property" class="form__field" name="property" required>
+										                    	<option>Aqua</option>
+										                    	<option>Aquaria</option>
+										                    	<option>Beach Club</option>
+										                    	<option>Boardwalk</option>
+										                    	<option>Canopy</option>
+										                    	<option>Crusoe Cabins</option>
+										                    	<option>Cocoons</option>
+										                    	<option>The Colony</option>
+										                    	<option>The Isle</option>
+										                   	</select>
+										                    <label for="property" class="form__label">Choose Your Property &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
 										                </div>
 										            </div>
-										            <div class="col-md-2">
-										                <div class="form__group">
-										                    <input type="text" id="arrival" class="form__field" name="arrival" required>
-										                    <label for="arrival" class="form__label">Arrival &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
-										                </div>
-										            </div>
-										             <div class="col-md-2">
-										                <div class="form__group">
-										                    <input type="text" id="departure" class="form__field" name="firstdeparture_name" required>
-										                    <label for="departure" class="form__label">Departure &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
-										                </div>
-										            </div>
-										            <div class="col-md-2">
-										                <div class="form__group">
-										                    <input type="text" id="adults" class="form__field" name="adults" required>
-										                    <label for="adults" class="form__label">Adults &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
-										                </div>
-										            </div>
-										            <div class="col-md-2">
-										                <div class="form__group">
-										                    <input type="text" id="children" class="form__field" name="children" required>
-										                    <label for="children" class="form__label">Children &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
-										                </div>
-										            </div>
-										            <div class="col-md-2" style="margin-top: -15px">
+										            <div class="col-md-4">
 										            	<div class="form__group">
-										            		<button type="submit" class="theme-btn btn-style-gold book-room-btn btn-full-width"><span class="txt">Book Now</span></button>
+										            		<button type="submit" class="theme-btn btn-style-gold btn-block"><span class="txt">Book Now</span></button>
 										            	</div>
 										            </div>
 										        </div>

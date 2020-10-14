@@ -8511,9 +8511,9 @@ img{
 		color: #ffffff;
 	}
 
-	input[id='property'] {
+	select[id='property'] {
 	    background-image: url(../images/icons/form-icon-1.png);
-	    background-position: 1px 8px;
+	    background-position: 0px 18px;
 	    background-repeat: no-repeat;
 	}
 
@@ -8561,7 +8561,7 @@ img{
 	  	outline: 0;
 	  	font-size: 16px;
 	  	color: #212121;
-	  	padding: 7px 0;
+	  	padding: 15px;
 	  	padding-left: 30px;
 	  	background: transparent;
 	  	transition: border-color 0.2s;
@@ -8594,7 +8594,6 @@ img{
 	}
 
 	.form__field:focus {
-	  	padding-bottom: 60px;
 	  	border-bottom: 1px solid #946113;
 	}
 
@@ -8749,9 +8748,9 @@ img{
 		border: 1px solid #946113;
 	}
 
-	input[id='property'] {
+	select[id='property'] {
 	    background-image: url(../images/icons/form-icon-1.png);
-	    background-position: 1px 8px;
+	    background-position: 0px 18px;
 	    background-repeat: no-repeat;
 	}
 
@@ -8783,8 +8782,7 @@ img{
 		font-size: 15px;
 	  	position: relative;
 	  	padding: 15px 0 0;
-	  	margin-top: 15px;
-	  	width: auto;
+	  	width: 100%;
 	  	display: inline-flex;
 	  	flex-direction: row;
 	  	text-transform: uppercase;
@@ -8799,7 +8797,7 @@ img{
 	  	outline: 0;
 	  	font-size: 16px;
 	  	color: #212121;
-	  	padding: 7px 0;
+	  	padding: 15px;
 	  	padding-left: 30px;
 	  	background: transparent;
 	  	transition: border-color 0.2s;
@@ -8832,7 +8830,6 @@ img{
 	}
 
 	.form__field:focus {
-	  	padding-bottom: 6px;
 	  	border-bottom: 1px solid #946113;
 	}
 
