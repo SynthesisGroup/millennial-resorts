@@ -85,9 +85,9 @@ body {
 }
 
 a{
-	text-decoration:none;
+	text-decoration:none !important;
 	cursor:pointer;
-	color:#946113;
+	color:#946113 !important;
 }
 
 a:hover,
@@ -1339,7 +1339,7 @@ img{
 }
 
 .header-style-three .main-menu .navigation > li > a{
-	color:#242424;
+	color:#242424 !important;
 }
 
 .header-style-three .outer-box .search-box-btn{
@@ -1722,7 +1722,7 @@ img{
 	padding: 10px 25px;
 	font-size: 14px;
 	font-weight: 400;
-	color: #000;
+	color: #000 !important;
 	text-transform: uppercase;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
@@ -2278,30 +2278,6 @@ img{
 	transition-delay: 1800ms;
 }
 
-.main-slider .content .theme-btn{
-	opacity: 0;
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 100ms ease;
-	-ms-transition: all 1000ms ease;
-	-o-transition: all 1000ms ease;
-	transition: all 1000ms ease;
-	-webkit-transform: translateY(80px);
-	-moz-transform: translateY(80px);
-	-ms-transform: translateY(80px);
-	-o-transform: translateY(80px);
-	transform: translateY(80px);
-}
-
-.main-slider .active .content .theme-btn{
-	opacity: 1;
-	-webkit-transform: translateX(0);
-	-moz-transform: translateX(0);
-	-ms-transform: translateX(0);
-	-o-transform: translateX(0);
-	transform: translateX(0);
-	transition-delay: 2200ms;
-}
-
 .main-slider .owl-nav{
 	position:absolute;
 	left:0;
@@ -2478,7 +2454,7 @@ img{
 	text-align:center;
 	border-radius:50%;
 	line-height:34px;
-	color:#ffffff;
+	color:#ffffff !important;
 	font-weight:400;
 	display:inline-block;
 	border:1px solid rgba(255,255,255,0.30);
@@ -2511,7 +2487,7 @@ img{
 
 .links-widget .list li a{
 	position:relative;
-	color:#ffffff;
+	color:#ffffff !important;
 	font-size:15px;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -8512,7 +8488,7 @@ img{
 	}
 
 	select[id='property'] {
-	    background-image: url(../images/favicon.png);
+	    background-image: url(../images/favicon.png) !important;
 	    background-position: 0px 18px;
 	    background-repeat: no-repeat;
 	    background-size: 20px;
@@ -8555,6 +8531,20 @@ img{
 	}
 
 	.form__field {
+	  	font-family: inherit;
+	  	width: 100%;
+	  	border: 0;
+	  	border-bottom: 1px solid #946113;
+	  	outline: 0;
+	  	font-size: 16px;
+	  	color: #212121;
+	  	padding: 15px;
+	  	padding-left: 30px;
+	  	background: transparent;
+	  	transition: border-color 0.2s;
+	}
+
+	.form__field > option {
 	  	font-family: inherit;
 	  	width: 100%;
 	  	border: 0;
@@ -8750,7 +8740,7 @@ img{
 	}
 
 	select[id='property'] {
-	    background-image: url(../images/favicon.png);
+	    background-image: url(../images/favicon.png) !important;
 	    background-position: 0px 15px;
 	    background-repeat: no-repeat;
 	    background-size: 20px;

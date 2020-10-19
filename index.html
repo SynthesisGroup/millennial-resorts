@@ -9,9 +9,7 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-<!-- Owl Stylesheets -->
-<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
 <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -20,6 +18,52 @@
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+ <!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link href="https://cdn.muicss.com/mui-0.5.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.muicss.com/mui-0.5.3/js/mui.min.js"></script>
+
+<style type="text/css">
+	@media (max-width: 767px) {
+		.mui-select {
+			margin-bottom: 0 !important;
+			padding-top: 25px !important;
+		}
+	}
+	.mui-select__menu {
+		height: 300px !important;
+	}
+	.mui-select__menu>div {
+		text-align: left;
+		font-family: 'Karla', sans-serif;
+	}
+
+	.mui-select>select {
+		height: 50px !important;
+		background-position: left center !important;
+		padding: 0px 0px 0 35px !important;
+	}
+
+	.mui-select:focus>select {
+		border-color: #946113 !important;
+		border-width: 1px !important;
+	}
+
+	label, .sort_form__field:focus ~ .form__label {
+		text-transform: uppercase;
+		font-family: 'Karla', sans-serif;
+		letter-spacing: 2px;
+	}
+</style>
+
+<script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+      
+</script>
+
 
 </head>
 
@@ -104,63 +148,56 @@
 
     <!-- Millennial Resorts Main Slider Section -->
 	<section class="main-slider style-three">
-		<div class="slider-box">
-		
-			<!-- Banner Carousel -->
-			<div class="banner-carousel owl-carousel">
-			
-				<!-- Slide -->
-				<div class="slide">
-                	<div class="image-layer" style="background-image:url(images/main-slider/home_page_header.png); background-size: cover;"></div>
-					<div class="auto-container">
-						<div class="content text-center pt-5">
-							<h3 class="header-title-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Welcome to <br> Millennial Resorts</h3>
-							<p class="header-description-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Destinations Worthy Of Every Bucket List</p>
 
-							<div class="row clearfix justify-content-center">
-								<div class="col-md-6">
-									<!-- Card Content Column-->
-									<div class="card" style="margin-top: 80px">
-										<div class="card-body">
-											<form action="">
-										         <div class="row">
-										            <div class="col-md-8">
-										                <div class="form__group">
-										                    <select type="select" id="property" class="form__field selectProperty" name="property" required>
-										                    	<option selected disabled>-- select --</option>
-										                    	<option value="https://synthesisgroup.github.io/Aqua/book.html">Aqua</option>
-										                    	<option value="https://synthesisgroup.github.io/Aquaria/book.html">Aquaria</option>
-										                    	<option>Beach Club</option>
-										                    	<option>Boardwalk</option>
-										                    	<option>Canopy</option>
-										                    	<option value="https://synthesisgroup.github.io/crusoe-cabins/book.html">Crusoe Cabins</option>
-										                    	<option value="https://synthesisgroup.github.io/cocoons/book.html">Cocoons</option>
-										                    	<option>The Colony</option>
-										                    	<option>The Isle</option>
-										                   	</select>
-										                    <label for="property" class="form__label">Choose Your Property &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
-										                </div>
-										            </div>
-										            <div class="col-md-4">
-										            	<div class="form__group">
-										            		<a href="" id="bookNow" target="__blank" rel="noopener" class="theme-btn btn-style-gold btn-block"><span class="txt">Book Now</span></a>
-										            	</div>
-										            </div>
-										        </div>
-										    </form>
-										</div>
-									</div>
+		<!-- Slide -->
+		<div class="slide">
+        	<div class="image-layer" style="background-image:url(images/main-slider/home_page_header.png); background-size: cover;"></div>
+			<div class="auto-container">
+				<div class="content text-center pt-5">
+					<h3 class="header-title-txt" data-wow-delay="500ms" data-wow-duration="1500ms">Welcome to <br> Millennial Resorts</h3>
+					<p class="header-description-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Destinations Worthy Of Every Bucket List</p>
 
+					<div class="row clearfix justify-content-center">
+						<div class="col-md-6">
+							<!-- Card Content Column-->
+							<div class="card" style="margin-top: 80px">
+								<div class="card-body" style="padding: 2rem !important;">
+									<form action="">
+								         <div class="row">
+								            <div class="col-md-8">
+								                <div class="mui-select">
+								                    <select type="select" id="property" class="selectProperty" name="property" required>
+								                    	<option selected disabled>-- select --</option>
+								                    	<option value="https://synthesisgroup.github.io/Aqua/book.html">Aqua</option>
+								                    	<option value="https://synthesisgroup.github.io/Aquaria/book.html">Aquaria</option>
+								                    	<option>Beach Club</option>
+								                    	<option>Boardwalk</option>
+								                    	<option>Canopy</option>
+								                    	<option value="https://synthesisgroup.github.io/crusoe-cabins/book.html">Crusoe Cabins</option>
+								                    	<option value="https://synthesisgroup.github.io/cocoons/book.html">Cocoons</option>
+								                    	<option>The Colony</option>
+								                    	<option>The Isle</option>
+								                   	</select>
+								                    <label for="property" class="form__label">Choose Your Property &nbsp;<i class="ion-android-arrow-dropdown"></i></label>
+								                </div>
+								            </div>
+								            <div class="col-md-4">
+								            	<div class="form__group">
+								            		<a href="" id="bookNow" target="__blank" rel="noopener" class="theme-btn btn-style-gold btn-block"><span class="txt text-white">Book Now</span></a>
+								            	</div>
+								            </div>
+								        </div>
+								    </form>
 								</div>
 							</div>
+
 						</div>
-							
 					</div>
 				</div>
+					
 			</div>
-			
-			
 		</div>
+	
 	</section>
 	<!-- End Millennial Resorts Main Slider Section -->
 	

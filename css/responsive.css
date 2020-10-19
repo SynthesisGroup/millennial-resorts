@@ -143,6 +143,20 @@
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	.list-style-menu {
+		flex-direction: column;
+	}
+
+	.copyright {
+		text-align: left !important;
+	}
+
+	.widget-content > ul > li > div {
+		float: left !important;
+	}
+}
+
 @media only screen and (max-width: 1023px){
 	
 	.header-style-two{
@@ -680,6 +694,8 @@
 	
 	.header-style-three .nav-outer .mobile-nav-toggler{
 		color:#222222;
+		margin-top: -20px;
+    	padding: 10px;
 	}
 	
 	.main-header .outer-box{
