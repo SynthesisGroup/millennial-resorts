@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millennial Resorts</title>
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+<body class="preload">
+    <!-- Start: Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/millennial-resorts-logo.png" alt="Millennial Resorts Logo" class="img-responsive">
+                </a>
+                <a class="sidebar-toggler">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </a>
+                <ul class="navbar-menu">
+                    <li class="navbar-items">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/millennial-resorts-logo.png" alt="Millennial Resorts Logo" class="img-responsive">
+                        </a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="locations.html">Locations</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="promos.html">Promos</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="events.html">Events</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="nav-overlay"></div>
+            </nav>
+        </div>
+    </header>
+    <!-- End: Header -->
+
+    <!-- Start: Main Wrapper -->
+    <main>
+        <div class="swiper-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <section class="home-banner-section" style="background-image: url(./img/banners/home_page_header.png);" data-aos="fade-up" data-aos-duration="500">
+                        <div class="container">
+                            <div class="banner-heading">
+                                <h1 class="banner-title">Welcome to Millennial Resorts</h1>
+                                <span class="banner-bottom-text">Destinations worthy of every bucket list</span>
+                            </div>
+
+                            <div class="card card-selector-wrapper">
+                                <div class="card-body">
+                                    <div class="row justify-content-between align-items-center g-4">
+                                        <div class="col-xl-8">
+                                            <div class="form-group">
+                                                <select class="form-select form-control" id="property" required>
+                                                    <option selected disabled>-- choose your experience --</option>
+                                                    <option value="https://aqua.synthesisgroup.co/">Aqua</option>
+                                                    <option value="https://aquaria.synthesisgroup.co/">Aquaria</option>
+                                                    <option>Beach Club</option>
+                                                    <option value="https://canopy.synthesisgroup.co/">Canopy</option>
+                                                    <option value="https://synthesisgroup.github.io/captain-barbozza/">Captain Barbozza</option>
+                                                    <option value="https://synthesisgroup.github.io/crusoe-cabins/book.html">Crusoe Cabins</option>
+                                                    <option value="https://synthesisgroup.github.io/cocoons/book.html">Cocoons</option>
+                                                    <option value="https://synthesisgroup.github.io/colony/">Colony</option>
+                                                    <option value="https://isle.synthesisgroup.co/">Isle</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <a href="#" id="explore" target="__blank" rel="noopener" class="btn btn-primary w-100">Explore</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-10 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">Soulful Experience</div>
+                            <h4 class="section-title">True supra resort communities, driven by a powerful vision to create a resort living destination for the urban pioneers</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" style="background-image: url('./img/cta/cta-millennial-resorts.jpg');">
+            <div class="container">
+                <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 align-items-center g-5">
+                    <div class="col">
+                        <div class="cta-card">
+                            <div class="cta-card-body">
+                                <div class="cta-card-wrapper">
+                                    <div class="cta-card-upper-text">For Future Generation</div>
+                                    <h4 class="cta-card-title">Millennial Resorts</h4>
+                                </div>
+                                <p>MRC is the thought leader on resort offerings under the new normal. Integrating technology in its customer programs, maintaining safety and sanitation in its operations and providing unconventional product experiences onsite.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="cta-card-full">
+                            <div class="cta-card-full-body">
+                                <div class="row row-cols-xl-1 row-cols-lg-1 row-cols-md-2 g-4">
+                                    <div class="col">
+                                        <div class="cta-card-checklist">
+                                            <img src="img/icons/home-icon-1.png" class="img-responsive" alt="">
+                                            <div class="cta-card-checklist-content">
+                                                <h5>Ideal for families</h5>
+                                                <p>With special facilities and activities for kids</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cta-card-checklist">
+                                            <img src="img/icons/home-icon-2.png" class="img-responsive" alt="">
+                                            <div class="cta-card-checklist-content">
+                                                <h5>All inclusive benefits and services</h5>
+                                                <p>With special facilities and activities for kids</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cta-card-checklist">
+                                            <img src="img/icons/home-icon-3.png" class="img-responsive" alt="">
+                                            <div class="cta-card-checklist-content">
+                                                <h5>Exceptional location</h5>
+                                                <p>With special facilities and activities for kids</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cta-card-checklist">
+                                            <img src="img/icons/home-icon-4.png" class="img-responsive" alt="">
+                                            <div class="cta-card-checklist-content">
+                                                <h5>Guaranteed reservations</h5>
+                                                <p>With special facilities and activities for kids</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-10 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">Experience the Lifestyle</div>
+                            <h4 class="section-title">Choose your Experience</h4>
+                            <p class="section-bottom-text">Experience precious moments of relaxation & comfort in our luxury rooms and feel like home!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 g-5 mt-5">
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/experience-img-1.png" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Crusoe Cabins Logo.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Crusoe Cabins</h4>
+                                    <p>The Crusoe Cabins is a hotel that’s impeccably placed towards the white sand shore of Calatagan, Batangas blessed daily with a picture-perfect sunset.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/experience-img-2.jpg" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Cocoons.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Cocoons</h4>
+                                    <p>We reinvented the beachside experience by creating Cocoons that are both intimate and engaging for residents and visitors alike.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row justify-content-between align-items-center g-5">
+                    <div class="col-xl-5 col-lg-5 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">Spacious work station</div>
+                            <h4 class="section-title">Coworking Space in Millennial Resorts</h4>
+                            <p class="section-bottom-text">Experience precious moments of relaxation & comfort in our luxury rooms and feel like home!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/experience-img-3.png" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Colony.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Colony</h4>
+                                    <p>A perfect place to work and enjoy the seascapes, a surrealistic & inspiring co-working spaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-10 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">The perfect park of beauty</div>
+                            <h4 class="section-title">Water Parks & Attractions</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 g-5 mt-5">
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home//aquaria-water-park.jpg" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Aquaria WaterPark.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Aquaria Water Park</h4>
+                                    <p>A tropical wonderland nestled along Calatagan South Beach (CaSoBē), an exciting place to splash around and experience a giant three-storey pool slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/aqua-water-park.jpg" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/aqua.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Aqua Water Park</h4>
+                                    <p>Davao's premier island resort, a first class luxury tourist spot that brings out the best of Samal's natural beauty. Enjoy the white sand beach and clear waters of the Aqua Park.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/calatagan-beachclub.JPG" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/PLAYA CALATAGAN LOGO-min.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Calatagan Beachclub</h4>
+                                    <p>Fill your soul with the splendor of adventure easily by visiting the Cocoons at CaSoBē. Full access to the Playa Calatagan Beach Club is given to Cocoons guests to splash around the pools and enjoy the daily seascape sunsets.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/laiya-beachclub.jpg" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Laiya_Logo-min.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Laiya Beachclub</h4>
+                                    <p>Make exciting experiences when you visit Cocoons at Club Laiya. Full access to the Laiya Beach Club is given to Cocoons guests to feel refreshed and enjoy the oasis-like infinity pool.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/canopy.jpg" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Canopy_Logo_PNG.png" class="img-responsive propery-logo" alt="">
+                                <div class="content-text-details">
+                                    <h4>Canopy</h4>
+                                    <p>Simple or grandiose moments in life are worth celebrating at the Canopy, a premium events place completely accessible to all.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row justify-content-between align-items-center g-5">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="property-wrapper">
+                            <div class="img-holder">
+                                <img src="img/home/captain-barbozza.png" class="img-responsive w-100" alt="">
+                            </div>
+                            <div class="content-holder">
+                                <img src="img/logo-properties/Captain Barbozza.png" class="img-responsive propery-logo" width="100" alt="">
+                                <div class="content-text-details">
+                                    <h4>Captain Barbozza</h4>
+                                    <p>Either you seek to enjoy your summer swims, or you'd rather enjoy winter's peace, and, quiet</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">Dining</div>
+                            <h4 class="section-title">Eat Like A Captain, Drink Like A Pirate</h4>
+                            <p class="section-bottom-text">Experience precious moments of relaxation & comfort in our luxury rooms and feel like home!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-10 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">Testimonials</div>
+                            <h4 class="section-title">What our guests have to say</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-xl-8">
+                        <div class="swiper-container swiper-testimonials">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-wrapper">
+                                        <img src="img/icons/quote.png" class="img-responsive testimonial-quote" alt="">
+                                        <p class="testimonial-content">Unforgettable -- the only word that describes every aspect of the experience my family and I had at Millennial Resorts thanks to the stunningly beautiful setting of this world-class resort and, perhaps even more importantly, its staff who made this trip unlike any other</p>
+                                        <div class="testimonial-stars-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+            
+                                        <div class="testimonial-author">
+                                            <p>Dimaunahan Family</p>
+                                            <span>Stayed at Crusoe Cabins July 2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-10">
+                        <div class="section-headers" data-aos="fade-up">
+                            <div class="section-upper-text">Are you a fan?</div>
+                            <h4 class="section-title text-uppercase">#MillennialResorts</h4>
+                            <p class="section-bottom-text">Discover our destinations through the eyes o our guests. Share your experience with #millennialresorts and mention @millennialresorts for a chance to be featured.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5" data-aos="fade-up">
+                    <div class="col-xl-12">
+                        <!-- Swiper -->
+                        <div class="swiper-container swiper-gallery">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-1.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-1.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-2.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-2.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-3.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-3.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-4.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-4.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-5.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-5.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-6.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-6.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End: Main Wrapper -->
+
+    <!-- Start: Main Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <div class="row row-cols-xl-2 row-cols-md-2 g-3">
+                        <div class="col">
+                            <ul class="footer-menu">
+                                <li class="footer-items">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="about-us.html">About Us</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="locations.html">Locations</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="accomodations.html">Promos</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="contact-us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="footer-menu">
+                                <li class="footer-items">
+                                    <a href="booking-policy.html">Events</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="booking-policy.html">Booking Policy</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="terms-of-use.html">Terms of Use</a>
+                                </li>
+                                <li class="footer-items">
+                                    <a href="terms-of-use.html">Sitemap</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-8 col-md-12">
+                    <div class="row row-cols-xl-2 row-cols-md-2 row-cols-1 g-3">
+                        <div class="col">
+                            <h4 class="footer-title">Contact Information</h4>
+                            <ul class="footer-menu">
+                                <li class="footer-contacts">
+                                    <ion-icon name="location-outline"></ion-icon>
+                                    <a href="">Club Laiya, Brgy. Laiya Aplaya, San Juan, Batangas</a>
+                                </li>
+                                <li class="footer-contacts">
+                                    <ion-icon name="call-outline"></ion-icon> 
+                                    <a href="">+639985876225 | (02) 8836-5017</a>
+                                </li>
+                                <li class="footer-contacts">
+                                    <ion-icon name="mail-outline"></ion-icon> 
+                                    <a href="">info.clublaiya@millennial-resorts.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-bottom-text">Copyright &copy; <span id="year"></span> Millennial Resorts. All rights reserved. Powered by Synthesisgroup</span>
+                <img src="img/millennial-resorts-logo-white.png" class="img-responsive" alt="">
+            </div>
+        </div>
+    </footer>
+    <!-- End: Main Footer -->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/scripts.js" defer></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Ionic Modules -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(document).on('change', '#property', function() {
+                let property = $(this).val();
+    
+                $('a#explore').attr('href',property);
+                $('a#explore').attr('target', '__blank');
+            })
+        })
+    </script>
+</body>
+</html>

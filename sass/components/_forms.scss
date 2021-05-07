@@ -1,0 +1,22 @@
+.form-control {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 28px;
+    padding: 10px 25px;
+    color: #797979;
+    border-radius: 3px;
+    background-color: #f4f3ef;
+    border: 1px solid #ededed;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        background-color: #f4f3ef;
+    }
+}

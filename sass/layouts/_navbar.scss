@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+        img {
+            width: 250px;
+        }
+    }
+
+    .sidebar-toggler {
+        padding: 0;
+        display: none;
+        
+        ion-icon {
+            font-size: 45px;
+        }
+    }
+
+    .navbar-menu {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: initial;
+
+        .navbar-items {
+            margin-left: 33px;
+
+            .navbar-brand {
+                display: none;
+            }
+
+            a {
+                font-family: var(--mr-font-ostd);
+                font-size: 13px;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: var(--mr-color-primary);
+                }
+            }
+
+            .active {
+                padding: 12px 0;
+                width: auto;
+                border-bottom: 3px solid var(--mr-color-primary);
+                color: var(--mr-color-primary);
+            }
+        }
+    }
+}
+
+.preload * {
+    transition: none !important;
+}
+
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--mr-color-primary);
+    visibility: hidden;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.nav-open {
+    .nav-overlay {
+        visibility: visible;
+        opacity: 0.6;
+    }
+} 
+
+.header-fixed {
+    position: fixed;
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

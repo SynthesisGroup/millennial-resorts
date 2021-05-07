@@ -1,0 +1,34 @@
+// Colors
+:root {
+    --mr-color-primary: #936510;
+    --mr-color-primary-light: #e7dcca;
+    --mr-color-white: #ffffff;
+    --mr-color-black: #01222b;
+    --mr-color-dark: #272a2c;
+    --mr-color-light-gray: #8F8F8F;
+    --mr-font-karla: 'Karla', sans-serif;
+    --mr-font-karla-bold: 'Karla Bold', sans-serif;
+    --mr-font-ostd: 'OSTD', sans-serif;
+    --mr-box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.2);
+    --mr-card-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+// Body Font
+@font-face { font-family: 'Karla';
+    src: url("../fonts/Karla/Karla-Regular.ttf");
+    font-weight: 400;
+    font-style: normal; 
+}
+
+@font-face { font-family: 'Karla Bold';
+    src: url("../fonts/Karla/Karla-Bold.ttf");
+    font-weight: 700;
+    font-style: normal; 
+}
+
+// Heading Font
+@font-face { font-family: 'OSTD';
+    src: url("../fonts/Optima/OSTD.otf");
+    font-weight: 400;
+    font-style: normal; 
+}

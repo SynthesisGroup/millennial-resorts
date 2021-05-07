@@ -1,0 +1,34 @@
+.accordion {
+    .accordion-item {
+        .accordion-header {
+            .accordion-button {
+                font-size: 18px;
+                text-transform: uppercase;
+
+                &:not(.collapsed) {
+                    color: var(--mr-color-primary);
+                    background-color: var(--mr-color-primary-light);
+                    box-shadow: none;
+                }
+                
+            }
+        }
+
+        .accordion-collapse {
+            .accordion-body {
+                .accordion-contact-info {
+                    display: grid;
+                    grid-template-columns: 15% 85%;
+
+                    .accordion-contact-info-text {
+                        font-family: var(--mr-font-karla-bold);
+                    }
+                
+                    .accordion-contact-info-details {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

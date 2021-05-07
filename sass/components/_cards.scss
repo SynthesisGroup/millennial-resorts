@@ -1,0 +1,34 @@
+.card {
+    border: none;
+    padding: 30px;
+
+    .card-body {
+        .card-title {
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .card-list {
+            list-style: circle;
+            padding: 0 18px;
+        }
+
+        .card-news-title {
+            margin-bottom: 20px;
+        }
+
+        .card-link {
+            color: var(--mr-color-primary);
+        }
+    }
+
+    // News Card Body
+    .card-news-body {
+        padding: 30px;
+    }
+}
+
+// Card Shadow
+.card-news-shadow {
+    box-shadow: var(--mr-box-shadow);
+}

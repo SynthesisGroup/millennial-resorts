@@ -1,0 +1,30 @@
+// Button Primary
+.btn {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 12px 32px 12px 32px;
+    border-radius: 1px;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:hover {
+        background-color: var(--mr-color-black);
+        border: 1px solid var(--mr-color-black);
+        transition: 3ms ease-in-out;
+    }
+}
+
+.btn-primary {
+    background-color: var(--mr-color-primary);
+    border: none;
+}
+
+.btn-outline-primary {
+    border: 1px solid var(--mr-color-primary);
+    color: var(--mr-color-primary);
+}

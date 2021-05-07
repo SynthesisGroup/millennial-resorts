@@ -1,0 +1,104 @@
+// Call to Action
+.cta-section {
+    position: relative;
+    padding: 100px 0 100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+
+    .cta-card {
+        position: relative;
+        background-color: var(--mr-color-white);
+
+        .cta-card-body {
+            padding: 50px;
+
+            .cta-card-wrapper {
+                text-align: center;
+                margin-bottom: 30px;
+
+                .cta-card-upper-text {
+                    font-family: var(--mr-font-karla);
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.15em;
+                    margin-bottom: 16px;
+                    color: var(--mr-color-light-gray);
+                }
+
+                .cta-card-title {
+                    font-size: 35px;
+                    color: var(--mr-color-primary);
+                }
+            }
+        }
+    }
+
+    .cta-card-full {
+        position: relative;
+        background-color: var(--mr-color-dark);
+
+        .cta-card-full-body {
+            padding: 50px;
+
+            .cta-card-checklist {
+                display: flex;
+                align-items: end;
+        
+                .cta-card-checklist-content {
+                    margin-left: 30px;
+        
+                    h5 {
+                        font-family: var(--mr-font-karla);
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        color: var(--mr-color-white);
+                    }
+            
+                    p {
+                        color: var(--mr-color-white);
+                    }
+                }
+            }
+        }
+    }
+
+
+    .cta-content {
+        position: relative;
+
+        .cta-upper-text {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: var(--color-white);
+        }
+
+        .cta-title {
+            font-size: 40px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--color-white);
+        }
+
+        .cta-lower-text {
+            font-size: 16px;
+            margin-top: 24px;
+            color: var(--color-white);
+        }
+
+        .cta-button {
+            margin-top: 16px;
+        }
+    }
+}
