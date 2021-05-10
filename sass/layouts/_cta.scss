@@ -102,3 +102,19 @@
         }
     }
 }
+
+// CTA Property Logos
+.cta-property-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mr-color-white);
+    box-shadow: var(--mr-box-shadow);
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+
+    img {
+        width: 120px;
+    }
+}
