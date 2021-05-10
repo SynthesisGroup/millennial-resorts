@@ -57,11 +57,6 @@
     // Header and Navbar
     header {
         .navbar {
-            .navbar-brand {
-                img {
-                    width: 140px;
-                }
-            }
             .navbar-menu {
                 .navbar-items {
                     margin-left: 15px;
@@ -154,7 +149,9 @@
                 display: block;
             }
             .navbar-brand {
-                width: 220px;
+                img {
+                    width: 200px;
+                }
             }
             .navbar-menu {
                 position: fixed;

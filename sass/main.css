@@ -105,6 +105,10 @@ h6 {
   list-style: disc;
 }
 
+.wpcc-container .wpcc-message {
+  color: var(--mr-color-white);
+}
+
 header {
   position: relative;
   width: 100%;
@@ -956,9 +960,6 @@ footer .footer-bottom .footer-bottom-text #year {
 }
 
 @media only screen and (max-width: 992px) {
-  header .navbar .navbar-brand img {
-    width: 140px;
-  }
   header .navbar .navbar-menu .navbar-items {
     margin-left: 15px;
   }
@@ -1019,8 +1020,8 @@ footer .footer-bottom .footer-bottom-text #year {
   header .navbar .sidebar-toggler {
     display: block;
   }
-  header .navbar .navbar-brand {
-    width: 220px;
+  header .navbar .navbar-brand img {
+    width: 200px;
   }
   header .navbar .navbar-menu {
     position: fixed;
