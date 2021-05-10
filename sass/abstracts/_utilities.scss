@@ -9,3 +9,21 @@
         color: var(--mr-color-white);
     }
 }
+
+// Background
+.bg-primary {
+    background-color: var(--mr-color-primary) !important;
+}
+
+.bg-circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+    img {
+        width: 20px;
+    }
+}
