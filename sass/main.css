@@ -960,6 +960,9 @@ footer .footer-bottom .footer-bottom-text #year {
 }
 
 @media only screen and (max-width: 992px) {
+  header .navbar .navbar-brand img {
+    width: 150px;
+  }
   header .navbar .navbar-menu .navbar-items {
     margin-left: 15px;
   }
@@ -1000,6 +1003,19 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   header .navbar .navbar-menu .navbar-items .navbar-brand {
     display: block;
+  }
+  header .navbar .navbar-menu .navbar-items a {
+    font-size: 16px;
+    padding: 0 12px;
+  }
+  header .navbar .navbar-menu .navbar-items-active {
+    background-color: var(--mr-color-primary);
+    padding: 12px;
+    border-radius: 6px;
+  }
+  header .navbar .navbar-menu .navbar-items-active .active {
+    padding: 12px;
+    color: var(--mr-color-white);
   }
   .flex-reverse {
     -ms-flex-wrap: wrap-reverse;
@@ -1044,6 +1060,16 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   header .navbar .navbar-menu .navbar-items a {
     font-size: 14px;
+    padding: 0 12px;
+  }
+  header .navbar .navbar-menu .navbar-items-active {
+    background-color: var(--mr-color-primary);
+    padding: 12px;
+    border-radius: 6px;
+  }
+  header .navbar .navbar-menu .navbar-items-active .active {
+    padding: 12px;
+    color: var(--mr-color-white);
   }
   .flex-reverse {
     -ms-flex-wrap: wrap-reverse;
@@ -1074,6 +1100,9 @@ footer .footer-bottom .footer-bottom-text #year {
   .container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  section .section-headers .section-title {
+    font-size: 30px;
   }
   .cta-section .cta-card .cta-card-body {
     padding: 30px;
