@@ -43,13 +43,22 @@
                 color: var(--mr-color-white);
             }
         }
+    }
+
+    .explore-wrapper {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
 
         .card-selector-wrapper {
+            position: relative;
             width: 60%;
-            margin-top: 100px;
             padding: 10px;
         }
-
     }
 }
 

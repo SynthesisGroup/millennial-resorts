@@ -33,9 +33,11 @@
             .banner-heading {
                 width: 70%;
             }
+        }
 
+        .explore-wrapper {
             .card-selector-wrapper {
-                width: 70%;
+                width: 100%;
             }
         }
     }
@@ -85,7 +87,9 @@
             .banner-heading {
                 width: 100%;
             }
+        }
 
+        .explore-wrapper {
             .card-selector-wrapper {
                 width: 100%;
             }
@@ -149,11 +153,18 @@
     // Home Banner Section
     .home-banner-section {
         .container {
+            top: 45%;
             width: 100%;
             .banner-heading {
                 width: 100%;
             }
 
+            .card-selector-wrapper {
+                width: 100%;
+            }
+        }
+
+        .explore-wrapper {
             .card-selector-wrapper {
                 width: 100%;
             }
@@ -222,6 +233,7 @@
     // Home Banner Section
     .home-banner-section {
         .container {
+            top: 35%;
             width: 100%;
             .banner-heading {
                 width: 100%;
@@ -235,6 +247,14 @@
                 }
             }
 
+            .card-selector-wrapper {
+                width: 100%;
+            }
+        }
+
+        .explore-wrapper {
+            padding: 30px;
+    
             .card-selector-wrapper {
                 width: 100%;
             }

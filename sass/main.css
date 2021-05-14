@@ -730,9 +730,23 @@ footer .footer-bottom .footer-bottom-text #year {
   color: var(--mr-color-white);
 }
 
-.home-banner-section .container .card-selector-wrapper {
+.home-banner-section .explore-wrapper {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-banner-section .explore-wrapper .card-selector-wrapper {
+  position: relative;
   width: 60%;
-  margin-top: 100px;
   padding: 10px;
 }
 
@@ -981,8 +995,8 @@ footer .footer-bottom .footer-bottom-text #year {
   .home-banner-section .container .banner-heading {
     width: 70%;
   }
-  .home-banner-section .container .card-selector-wrapper {
-    width: 70%;
+  .home-banner-section .explore-wrapper .card-selector-wrapper {
+    width: 100%;
   }
   .property-wrapper .content-holder {
     -webkit-box-align: initial;
@@ -1012,7 +1026,7 @@ footer .footer-bottom .footer-bottom-text #year {
   .home-banner-section .container .banner-heading {
     width: 100%;
   }
-  .home-banner-section .container .card-selector-wrapper {
+  .home-banner-section .explore-wrapper .card-selector-wrapper {
     width: 100%;
   }
 }
@@ -1058,12 +1072,16 @@ footer .footer-bottom .footer-bottom-text #year {
         flex-wrap: wrap-reverse;
   }
   .home-banner-section .container {
+    top: 45%;
     width: 100%;
   }
   .home-banner-section .container .banner-heading {
     width: 100%;
   }
   .home-banner-section .container .card-selector-wrapper {
+    width: 100%;
+  }
+  .home-banner-section .explore-wrapper .card-selector-wrapper {
     width: 100%;
   }
 }
@@ -1112,6 +1130,7 @@ footer .footer-bottom .footer-bottom-text #year {
         flex-wrap: wrap-reverse;
   }
   .home-banner-section .container {
+    top: 35%;
     width: 100%;
   }
   .home-banner-section .container .banner-heading {
@@ -1124,6 +1143,12 @@ footer .footer-bottom .footer-bottom-text #year {
     font-size: 13px;
   }
   .home-banner-section .container .card-selector-wrapper {
+    width: 100%;
+  }
+  .home-banner-section .explore-wrapper {
+    padding: 30px;
+  }
+  .home-banner-section .explore-wrapper .card-selector-wrapper {
     width: 100%;
   }
   .inner-page-section .container .inner-page-heading .inner-page-title {
