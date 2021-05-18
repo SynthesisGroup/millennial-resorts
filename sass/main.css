@@ -187,8 +187,9 @@ header {
 
 .navbar .navbar-menu .navbar-items a {
   font-family: var(--mr-font-ostd);
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .navbar .navbar-menu .navbar-items a:hover {
@@ -750,6 +751,12 @@ footer .footer-bottom .footer-bottom-text #year {
   padding: 10px;
 }
 
+.property-wrapper .img-holder img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .property-wrapper .content-holder {
   display: -ms-grid;
   display: grid;
@@ -764,7 +771,7 @@ footer .footer-bottom .footer-bottom-text #year {
 }
 
 .property-wrapper .content-holder .propery-logo {
-  width: 100px;
+  width: 150px;
 }
 
 .property-wrapper .content-holder .content-text-details {

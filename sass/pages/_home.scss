@@ -64,6 +64,12 @@
 
 // Property Wrapper
 .property-wrapper {
+    .img-holder {
+        img {
+            height: 400px;
+            object-fit: cover;
+        }
+    }
     .content-holder {
         display: grid;
         grid-template-columns: 30% 70%;
@@ -71,7 +77,7 @@
         align-items: center;
 
         .propery-logo {
-            width: 100px;
+            width: 150px;
         }
 
         .content-text-details {

@@ -32,8 +32,9 @@
 
             a {
                 font-family: var(--mr-font-ostd);
-                font-size: 13px;
+                font-size: 15px;
                 text-transform: uppercase;
+                letter-spacing: 0.05em;
 
                 &:hover {
                     color: var(--mr-color-primary);
