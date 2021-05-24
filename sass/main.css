@@ -455,7 +455,7 @@ footer {
 }
 
 footer .footer-logo {
-  margin-bottom: 16px;
+  width: 250px;
 }
 
 footer .footer-text {
@@ -1185,6 +1185,9 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   .cta-section .cta-card-full .cta-card-full-body {
     padding: 30px;
+  }
+  .cta-property-logos img {
+    width: 120px !important;
   }
   .testimonial-wrapper .testimonial-content {
     font-size: 18px;
