@@ -132,6 +132,11 @@ h6 {
   width: 20px;
 }
 
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -336,7 +341,7 @@ section .section-headers .section-bottom-text {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .cta-section .cta-card {
@@ -455,7 +460,7 @@ footer {
 }
 
 footer .footer-logo {
-  width: 250px;
+  width: 350px;
 }
 
 footer .footer-text {
@@ -1090,6 +1095,9 @@ footer .footer-bottom .footer-bottom-text #year {
   .home-banner-section .explore-wrapper .card-selector-wrapper {
     width: 100%;
   }
+  footer .footer-logo {
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -1220,6 +1228,10 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   .accordion-contact-us {
     margin-left: 0;
+  }
+  footer .footer-logo {
+    width: 330px;
+    margin-bottom: 20px;
   }
   footer .footer-bottom {
     display: -ms-grid;
