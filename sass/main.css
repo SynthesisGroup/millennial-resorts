@@ -651,7 +651,6 @@ footer .footer-bottom .footer-bottom-text #year {
 
 .accordion .accordion-item .accordion-header .accordion-button {
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {

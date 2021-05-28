@@ -3,7 +3,6 @@
         .accordion-header {
             .accordion-button {
                 font-size: 18px;
-                text-transform: uppercase;
 
                 &:not(.collapsed) {
                     color: var(--mr-color-primary);
