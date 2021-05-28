@@ -460,7 +460,7 @@ footer {
 }
 
 footer .footer-logo {
-  width: 250px;
+  width: 350px;
 }
 
 footer .footer-text {
@@ -564,6 +564,10 @@ footer .footer-bottom .footer-bottom-text {
 
 footer .footer-bottom .footer-bottom-text #year {
   color: var(--mr-color-white);
+}
+
+footer .footer-bottom img {
+  width: 200px;
 }
 
 .btn {
@@ -1017,6 +1021,9 @@ footer .footer-bottom .footer-bottom-text #year {
   .property-wrapper .content-holder .propery-logo {
     width: 100px;
   }
+  footer .footer-logo {
+    width: 280px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -1095,7 +1102,7 @@ footer .footer-bottom .footer-bottom-text #year {
     width: 100%;
   }
   footer .footer-logo {
-    width: 250px;
+    width: 350px;
   }
 }
 
@@ -1229,6 +1236,7 @@ footer .footer-bottom .footer-bottom-text #year {
     margin-left: 0;
   }
   footer .footer-logo {
+    width: 330px;
     margin-bottom: 20px;
   }
   footer .footer-bottom {

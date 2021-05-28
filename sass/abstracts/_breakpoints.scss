@@ -51,6 +51,12 @@
             }
         }
     }
+
+    footer {
+        .footer-logo {
+            width: 280px;
+        }
+    }
 }
 
 // Desktop View in Mobile Browser
@@ -173,7 +179,7 @@
     // Footer
     footer {
         .footer-logo {
-            width: 250px;
+            width: 350px;
         }
     }
 }
@@ -381,6 +387,7 @@
     // Main Footer
     footer {
         .footer-logo {
+            width: 330px;
             margin-bottom: 20px;
         }
         .footer-bottom {
