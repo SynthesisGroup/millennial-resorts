@@ -35,12 +35,13 @@ contactForm.addEventListener('submit', (e) => {
         // Get the data and transport to email
         Email.send({
             Host: "smtp.gmail.com",
-            Username : "information.cloud365@gmail.com",
-            Password : "gqpptqkatjgljmxb",
-            Port: 587,
+            Auth : true,   
+            Username : "noreply@landco.ph",
+            Password : "P@ssw0rd@123",
+            Port: 25,
             Tls: true,
             To : 'info@millennial-resorts.com',
-            Cc : ['mpcaneda.gca@gmail.com', 'solutions@gocloud.asia'],
+            Cc : ['mpcaneda.gca@gmail.com', 'solutions@gocloud.asia', 'vlogs@trietrade.com'],
             From : email.value,
             Subject : subject.value,
             Body : message.value,
